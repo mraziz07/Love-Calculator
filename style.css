@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    background: rgb(201, 200, 200);
+}
+
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    align-items: center;
+}
+nav h2{
+    color: #a41d1d;
+}
+
+nav h3{
+    color: rgb(215, 15, 15);
+    font-size: 17px;
+  font-weight: 500;
+}
+
+.para{
+    width: 60%;
+    margin: auto;
+    text-align:center;
+    padding-top: 5rem;
+}
+.hidden{
+    display: none;
+}
+
+.para p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top:1rem ;
+}
+.containers{
+    width: 60%;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.containers input{
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    outline: none;
+    border: 0;
+    font-size: 1rem;
+    box-shadow: 0px 0px 12px -3px rgba(0,0,0,0.75);
+}
+
+.your-name,
+.partner-name{
+    text-align: center;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+.button-container button{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 50px;
+    border:none ;
+    outline: none;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(252,69,125,1) 100%);
+    color: white;
+    font-weight: 600;
+}
+.button-container button:hover{
+    box-shadow: 0px 0px 12px -3px rgba(0,0,0,0.75);
+}
+.required{
+    text-align: center;
+}
+.love-results{
+    width: 60%;
+    margin: auto;
+    padding-top: 5rem;
+}
+.love-results h2{
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 26px;
+}
+.love-results h3{
+    text-align: center;
+    padding: 0.5rem 0;
+}
+.love-results button{
+    margin-top: 3rem;
+    display: flex;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 50px;
+    border:none ;
+    outline: none;
+    background:linear-gradient(90deg, rgb(255, 254, 255) 0%, rgb(185, 50, 50) 0%, rgb(213, 38, 92) 100%);
+    color: white;
+    font-weight: 600;
+    margin-left: 240px;
+    margin-bottom: 7rem;
+}
+
+
+footer{
+    height: 10vh;
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 167, 181);
+}
+
+
+@media screen and (max-width: 930px) {
+    .para{
+        width: 80%;
+    }
+    .containers,
+    .love-results{
+        width: 80%;
+    }
+  }

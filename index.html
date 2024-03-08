@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h2><i class="fa-solid fa-heart-pulse"></i>Love Calculator</h2>
+
+            <h3>About the love Calculator </h3>
+        </nav>
+    </header>
+
+    <main>
+        <div class="primary-box">
+            <div class="para">
+                <h1>Welcome to this great invention of Doctor Love!</h1>
+                <p>We all know that a name can tell a lot about a person. Names are not randomly chosen: they all have a meaning. Doctor Love knew this so he made another great invention just for the lonely you!</p>
+                <p class="para-2">To find out what the chances for you and your dream partner are, just fill in both full names (both first and last name) in the two text boxes below, and press Calculate.</p>
+            </div>
+            <div class="containers">
+                <div class="your-name">
+                    <h3>Your Name</h3>
+                    <input type="text" placeholder="Full Name" required>
+                </div>
+    
+                <div class="partner-name">
+                    <h3>Partner Name</h3>
+                    <input type="text" placeholder="Full Name" required>
+                </div>
+            </div>
+            <div class="button-container">
+                <button type="button">Calculate Love</button>
+            </div>
+        </div>
+
+        <div class="love-results hidden">
+            <h3 id="names">a & b </h3>
+            <h2 id="percentage">100%</h2>
+            <p class="result-para">Dr. Love thinks a relationship might work out between a and z, but the chance is very small. A successful relationship is possible, but you both have to work on it. Do not sit back and think that it will all work out fine, because it might not be working out the way you wanted it to. Spend as much time with each other as possible. Again, the chance of this relationship working out is very small, so even when you do work hard on it, it still might not work out.</p>
+            <button type="button">Make another calculation</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; By Tareef Aziz</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
